@@ -14,7 +14,7 @@ def generate_totp(secret):
 def generate_holographic_pattern(data):
     # Characters for ASCII art
     chars = ['@', '#', '*', '%', '=', '+', '-', ':', '.', ' ']
-    random.seed(data)  # Seed randomness withdfgsa/ldfgkjasgf;oasujfg;aspf
+    random.seed(data)  # Seed randomness with the data (TOTP)
 
     # Generate a 10x30 grid of random characters based on the seed
     pattern = ""
